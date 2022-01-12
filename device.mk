@@ -23,7 +23,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
-    
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
@@ -34,6 +34,14 @@ PRODUCT_PACKAGES += \
     init.mt6873.usb.rc \
     fstab.mt6873 \
     ueventd.mt6873.rc
+
+# WiFi
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay \
+    WifiResCommon
+
+PRODUCT_PACKAGES += \
+    libnl
 
 # Audio
 PRODUCT_COPY_FILES += \
