@@ -31,6 +31,17 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
 
+# Display
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.allocator@2.0-impl \
+    android.hardware.graphics.allocator@2.0-service \
+    android.hardware.graphics.composer@2.1-impl \
+    android.hardware.graphics.composer@2.1-service \
+    android.hardware.graphics.mapper@2.0-impl-2.1 \
+    android.hardware.memtrack@1.0-impl \
+    android.hardware.memtrack@1.0-service \
+    libvulkan
+    
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
@@ -59,7 +70,7 @@ PRODUCT_PACKAGES += \
 # RcsService
 PRODUCT_PACKAGES += \
     RcsService
-    
+
 # WiFi
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
