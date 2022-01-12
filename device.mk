@@ -56,6 +56,10 @@ PRODUCT_PACKAGES += \
     fstab.mt6873 \
     ueventd.mt6873.rc
 
+# RcsService
+PRODUCT_PACKAGES += \
+    RcsService
+    
 # WiFi
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
