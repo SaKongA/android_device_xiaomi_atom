@@ -31,6 +31,13 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    btremoted \
+    libldacBT_dec \
+    libbt-vendor \
+    libbluetooth_mtk
+
 # Camera
 PRODUCT_PACKAGES += \
     Camera2
