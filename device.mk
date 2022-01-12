@@ -47,6 +47,21 @@ PRODUCT_PACKAGES += \
     libnl
 
 # Audio
+PRODUCT_PACKAGES += \
+    android.hardware.audio.effect@5.0-impl \
+    android.hardware.audio.common@6.0-util \
+    android.hardware.soundtrigger@2.2-impl \
+    android.hardware.bluetooth.audio@2.0-impl \
+    audio.a2dp.default \
+    libaudiopreprocessing \
+    libbundlewrapper \
+    libdownmix \
+    libdynproc \
+    libeffectproxy \
+    libldnhncr \
+    libreverbwrapper \
+    libvisualizer   
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
     $(LOCAL_PATH)/configs/audio/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
