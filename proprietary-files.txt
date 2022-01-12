@@ -1044,12 +1044,6 @@ vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
 vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
-vendor/lib64/libkeymaster4.so
-vendor/lib64/libkeymaster4support.so
-vendor/lib64/libkeymaster_messages.so
-vendor/lib64/libkeymaster_portable.so
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libpuresoftkeymasterdevice.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
@@ -1061,9 +1055,6 @@ vendor/lib64/hw/lights.mt6873.so
 # Listen
 vendor/lib/hw/sound_trigger.primary.mt6873.so
 vendor/lib64/hw/sound_trigger.primary.mt6873.so
-
-# Media
-vendor/lib/libstagefright_soft_mpeg2dec.so
 
 # Media-Hardware
 vendor/lib/libstagefrighthw.so
@@ -1601,11 +1592,9 @@ vendor/bin/dexecutor
 vendor/bin/doeapp-memtester
 vendor/bin/doeapp-sat
 vendor/bin/dtc_vendor
-vendor/bin/dumpsys
 vendor/bin/em_hidl
 vendor/bin/fuelgauged_nvram
 vendor/bin/gbe
-vendor/bin/getconf
 vendor/bin/getgameserver
 vendor/bin/gsm0710muxd
 vendor/bin/hw/mfp-daemon
@@ -1628,8 +1617,6 @@ vendor/bin/mtk_agpsd
 vendor/bin/muxreport
 vendor/bin/netdagent
 vendor/bin/netdc
-vendor/bin/nproc
-vendor/bin/nsenter
 vendor/bin/nvram_daemon
 vendor/bin/recordevent
 vendor/bin/replayevent
@@ -2370,7 +2357,6 @@ vendor/lib64/libhdrvideo.so
 vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libhfmanager.so
 vendor/lib64/libhfmanagerwrapper.so
-vendor/lib64/libhwbinder.so
 vendor/lib64/libhwm.so
 vendor/lib64/libifcutils_mtk.so
 vendor/lib64/libimageio.so
@@ -2414,7 +2400,6 @@ vendor/lib64/libnvram_daemon_callback.so
 vendor/lib64/libnvram_platform.so
 vendor/lib64/libnvram_sec.so
 vendor/lib64/libnwk_opt_halwrap_vendor.so
-vendor/lib64/libpcap.so
 vendor/lib64/libperfctl_vendor.so
 vendor/lib64/libpixelflinger.so
 vendor/lib64/libpowerhal.so
@@ -2426,7 +2411,6 @@ vendor/lib64/librgbwlightsensor.so
 vendor/lib64/librilfusion.so
 vendor/lib64/librt_extamp_intf.so
 vendor/lib64/libscltm.so
-vendor/lib64/libsoft_attestation_cert.so
 vendor/lib64/libspeechparser_vendor.so
 vendor/lib64/libspeech_enh_lib.so
 vendor/lib64/libstereoinfoaccessor_vsdof.so
@@ -2434,7 +2418,6 @@ vendor/lib64/libsysenv.so
 vendor/lib64/libteeclientjni.so
 vendor/lib64/libteeclientjni@1.1.so
 vendor/lib64/libTEECommon.so
-vendor/lib64/libtextclassifier_hash.so
 vendor/lib64/libtflite_mtk.so
 vendor/lib64/libtflite_mtk_static_R.so
 vendor/lib64/libthha.so
