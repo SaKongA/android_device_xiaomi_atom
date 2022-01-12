@@ -31,6 +31,13 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
 
+# Camera
+PRODUCT_PACKAGES += \
+    Camera2
+
+PRODUCT_COPY_FILES += \
+    hardware/interfaces/camera/provider/2.4/default/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/init/android.hardware.camera.provider@2.4-service_64.rc
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
@@ -45,7 +52,7 @@ PRODUCT_PACKAGES += \
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
-    
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
