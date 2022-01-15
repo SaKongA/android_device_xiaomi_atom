@@ -69,6 +69,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    lineage.biometrics.fingerprint.inscreen@1.0-service.atom \
+    vendor.goodix.hardware.biometrics.fingerprint@2.1 \
+    vendor.xiaomi.hardware.fingerprintextension@1.0  \
+    vendor.xiaomi.hardware.touchfeature@1.0 \
+    vendor.xiaomi.hardware.displayfeature@1.0
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
@@ -86,7 +94,14 @@ PRODUCT_PACKAGES += \
 	EngineerMode \
 	libsink \
 	libem_support_jni \
-    
+
+# IFAA manager
+PRODUCT_PACKAGES += \
+    org.ifaa.android.manager
+
+PRODUCT_BOOT_JARS += \
+    org.ifaa.android.manager
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.mt6873.rc \
