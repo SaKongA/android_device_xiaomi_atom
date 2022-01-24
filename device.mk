@@ -97,10 +97,7 @@ PRODUCT_PACKAGES += \
 
 # IFAA manager
 PRODUCT_PACKAGES += \
-    org.ifaa.android.manager
-
-PRODUCT_BOOT_JARS += \
-    org.ifaa.android.manager
+   include device/xiaomi/extras/ifaa.mk
 
 # Ramdisk
 PRODUCT_PACKAGES += \
